@@ -1,0 +1,27 @@
+{
+  "name": "brew-haven-backend",
+  "version": "1.0.0",
+  "description": "Express + MongoDB backend for the Brew Haven coffee shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratherpixelate/brew-haven-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratherpixelate/brew-haven-backend/issues"
+  },
+  "homepage": "https://github.com/ratherpixelate/brew-haven-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
