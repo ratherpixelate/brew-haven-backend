@@ -1,5 +1,12 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
+
+const mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log('MongoDB connected'))
+  .catch((err) => console.error('MongoDB connection error:', err));
 
 app.get('/', (req, res) => {
   res.send('Brew Haven backend is running');
